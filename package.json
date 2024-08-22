@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Simple plugin for GitBook to announce notices and updates",
   "main": "index.js",
+  "engines": {
+    "gitbook": "*"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +18,19 @@
   "bugs": {
     "url": "https://github.com/yi10235512/gitbook-plugin-toast/issues"
   },
-  "homepage": "https://github.com/yi10235512/gitbook-plugin-toast#readme"
+  "homepage": "https://github.com/yi10235512/gitbook-plugin-toast#readme",
+  "gitbook": {
+    "properties": {
+      "content": {
+        "type": "string",
+        "default": "Have a nice day!",
+        "description": "The content to be displayed in the toast message."
+      },
+      "showClose": {
+        "type": "boolean",
+        "default": true,
+        "description": "Show a close button in the toast (true to enable)."
+      }
+    }
+  }
 }
