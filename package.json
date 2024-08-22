@@ -1,0 +1,19 @@
+{
+  "name": "gitbook-plugin-toast",
+  "version": "0.0.1",
+  "description": "Simple plugin for GitBook to announce notices and updates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yi10235512/gitbook-plugin-toast.git"
+  },
+  "author": "yi10235512",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yi10235512/gitbook-plugin-toast/issues"
+  },
+  "homepage": "https://github.com/yi10235512/gitbook-plugin-toast#readme"
+}
